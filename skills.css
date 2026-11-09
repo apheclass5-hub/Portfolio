@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgba(0, 0, 0, 0.742);
+    color: rgb(205, 213, 199);
+}
+
+.card {
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    margin-top: 9px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 6px 6px 6px 6px;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
